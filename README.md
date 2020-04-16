@@ -2,7 +2,12 @@
 
  **모든 것은 빠르고 정확하게 해내기 위한 과정이다.**  
  **모든 것은 Trade-off다**  
- 
+
+## Terminology  
+
+#### fail over [장애 조치](http://www.terms.co.kr/failover.htm)  
+
+
 
 ## CAP Theorem  
 
