@@ -51,8 +51,11 @@
 
 [Why 1NF is needed](https://dba.stackexchange.com/questions/26933/first-normal-form-why-is-it-good-and-how-does-it-reduce-redundancy)  
 
+[Join의 방식과 비싼 비용](https://www.sqlshack.com/introduction-to-nested-loop-joins-in-sql-server/)  
 
 #### 1. Denormalization  
+ * 이 역시 trade-off 다. 성능 vs redundacny 증가로 인해 ananomaly 발생 확률  
+ 
 [geeks](https://www.geeksforgeeks.org/denormalization-in-databases/)  
 
 #### 2. Indexing  
