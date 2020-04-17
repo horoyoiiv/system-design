@@ -75,12 +75,19 @@
 
 [Join의 방식과 비싼 비용](https://www.sqlshack.com/introduction-to-nested-loop-joins-in-sql-server/)  
 
+#### Join method  
+ * **It is always good to know what's happening behind**  
+ [What kind of join method ](/DB/join.md)  
+ 
+ 
 #### 1. Denormalization  
  * 이 역시 trade-off 다. 성능 vs redundacny 증가로 인해 ananomaly 발생 확률  
  
 [geeks](https://www.geeksforgeeks.org/denormalization-in-databases/)  
 
 #### 2. Indexing  
+[SELECT query 향상을 위한 index라는 추가 자료구조 사용](/DB/indexing.md)  
+
 
 #### 3. SQL Tuning  
 
