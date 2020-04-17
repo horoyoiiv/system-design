@@ -34,15 +34,19 @@
  
  ## DNS  
  
- 
+ [DNS 등록 및 흐름](https://opentutorials.org/course/3276/20307)  
  [How it works](https://www.netmanias.com/ko/post/techdocs/5259/dns-network-protocol/dns-basic-operation)  
- 
+ [How it works 2](https://opentutorials.org/course/3276/20303)  
+ [그외) 1. 무료 domain 할당](https://j-history.tistory.com/9)  
+ [그외) 2. domain을 Route53으로 연결](https://tech.cloud.nongshim.co.kr/2018/10/16/%EC%B4%88%EB%B3%B4%EC%9E%90%EB%A5%BC-%EC%9C%84%ED%95%9C-aws-%EC%9B%B9%EA%B5%AC%EC%B6%95-8-%EB%AC%B4%EB%A3%8C-%EB%8F%84%EB%A9%94%EC%9D%B8%EC%9C%BC%EB%A1%9C-route-53-%EB%93%B1%EB%A1%9D-%EB%B0%8F-elb/)  
  
  ## CDN
  
  [what is cdn by akamai](https://cdn.hosting.kr/cdn%EC%9D%B4%EB%9E%80-%EB%AC%B4%EC%97%87%EC%9D%B8%EA%B0%80%EC%9A%94/)  
  
  
+ ## GSLB(Global Server Load Balancer)  
+ **healthcheck 와 Latency를 고려할 수 있는 스마트한 DNS**  
  
  
  
