@@ -59,6 +59,33 @@
  [what is cdn by akamai](https://cdn.hosting.kr/cdn%EC%9D%B4%EB%9E%80-%EB%AC%B4%EC%97%87%EC%9D%B8%EA%B0%80%EC%9A%94/)  
  
 
+ ## LB  
+ 
+ [L4 vs L7 Load Balancer](https://freeloadbalancer.com/load-balancing-layer-4-and-layer-7/)  
+ 
+ #### 1. 이점  
+ 
+ 1. ssl에 대한 복호화 및 암호화를 LB에서 수행하여, upstream server의 암호화 부하를 줄일 수 있다.  
+ 2. Scale-out을 통한 throughput 증가  
+ 
+ #### 2. 단점  
+ 
+ 1. cluster 구성의 복잡도 증가  
+ 2. LB의 리소스가 부족할 경우 LB 자체가 bottleneck이 될 수 있다.  
+ 
+ 
+ ## Reverse Proxy  
+ 
+ #### 1. Web server로서, 들어오는 요청을 upstream server로 포워딩해준다.  
+ 
+ #### 2. ssl 암,복호화 수행 뿐만 아니라 static contents나 response를 caching하는 기능수행.  
+ 
+ 
+ ## LB vs Reverse Proxy  
+ 
+ 1. LB는 여러 서버에 부하를 분산한다는 개념이 강하다.  
+ 2. Rerver Proxy는 서버가 하나라도 사용할 수 있다.  
+ 3. blacklist ip, ssl, caching 기능 등을 위하여  
  
  
  
