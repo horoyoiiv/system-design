@@ -73,6 +73,10 @@
  1. cluster 구성의 복잡도 증가  
  2. LB의 리소스가 부족할 경우 LB 자체가 bottleneck이 될 수 있다.  
  
+ #### 3. Consistent Hashing  
+ * [consistent hasing이란?](/DB/consistant-hashing.md)  
+ * 가상의 **hash ring**을 구성한 후 **request id**의 hash값을 **clock-wise**하게 탐색하며 처음 만난 서버로 요청을 전송.  
+ * 이를 통해, 노드의 추가 삭제 시 **인접한 노드에만 영향**이 가기에, 변화를 최소화할 수 있다.  
  
  ## Reverse Proxy  
  
