@@ -54,12 +54,12 @@
  ㅈ
  
 
- ## CDN
+ # CDN
  
  [what is cdn by akamai](https://cdn.hosting.kr/cdn%EC%9D%B4%EB%9E%80-%EB%AC%B4%EC%97%87%EC%9D%B8%EA%B0%80%EC%9A%94/)  
  
 
- ## LB  
+ # LB  
  
  [L4 vs L7 Load Balancer](https://freeloadbalancer.com/load-balancing-layer-4-and-layer-7/)  
  
@@ -78,11 +78,17 @@
  * 가상의 **hash ring**을 구성한 후 **request id**의 hash값을 **clock-wise**하게 탐색하며 처음 만난 서버로 요청을 전송.  
  * 이를 통해, 노드의 추가 삭제 시 **인접한 노드에만 영향**이 가기에, 변화를 최소화할 수 있다.  
  
- ## Reverse Proxy  
+ # Forward Proxy vs Reverse Proxy  
+ #### [설명](https://www.lesstif.com/system-admin/forward-proxy-reverse-proxy-21430345.html)  
  
- #### 1. Web server로서, 들어오는 요청을 upstream server로 포워딩해준다.  
+ ## 1. Forward Proxy  
+ * Client와 인접한 곳에 위치하여, **클라이언트의 요청**을 대신 수행하는 서버.  
+ * 또한, 요청에 대한 결과를 **Caching**하여, 다음의 동일한 요청에 대해서 그 cache된 응답을 돌려줄 수 있다.  
  
- #### 2. ssl 암,복호화 수행 뿐만 아니라 static contents나 response를 caching하는 기능수행.  
+ ## 2. Reverse Proxy  
+ * backend 서버 앞단에 배치된다.  
+ #### 2.1. 들어오는 요청을 [upstream server](https://stackoverflow.com/questions/5877929/what-does-upstream-mean-in-nginx)로 포워딩해준다. 
+ #### 2.2. ssl 암,복호화 수행 뿐만 아니라 static contents나 response를 caching하는 기능수행.  
  
  
  ## LB vs Reverse Proxy  
